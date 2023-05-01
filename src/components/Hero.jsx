@@ -19,6 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a content creator on Kick, I broadcast a variety of games! RPG's, MMO's, FPS's, & Survival games are among my favorite genres.</p>
         </div>
       </div>
+      
       <ComputersCanvas />
     </section>
   )
