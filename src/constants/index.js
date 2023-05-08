@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    NoxLogo,
     javascript,
     typescript,
     html,
@@ -31,8 +32,8 @@ import {
       title: "About",
     },
     {
-      id: "clips",
-      title: "Clips",
+      id: "stream",
+      title: "Stream",
     },
     {
       id: "contact",
@@ -42,21 +43,23 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Clip 1",
+      url: "https://kick.com/papanox?clip=55202",
+      icon: NoxLogo
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Clip 2",
+      url: "https://kick.com/papanox?clip=53576",
+      icon: NoxLogo
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
