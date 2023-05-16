@@ -11,14 +11,14 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/* <Experience />
+        <Experience />
         <Specs />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
-        </div> */}
+        </div>
       </div>
     </BrowserRouter>
   )
