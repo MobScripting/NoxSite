@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import nvidia from "./hardware/nvidia.png";
 import intel from "./hardware/intel.png";
 import teamgroup from "./hardware/teamgroup.png";
 
@@ -53,7 +53,7 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  nvidia,
   intel,
   teamgroup,
   carrent,
