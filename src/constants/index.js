@@ -31,13 +31,17 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "stream",
-      title: "Stream",
-    },
+    // {
+    //   id: "https://kick.com/papanox",
+    //   title: "Stream",
+    // },
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "unifiedgaming",
+      title: "Unified Gaming",
     },
   ];
   

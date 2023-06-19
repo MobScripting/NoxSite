@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Feedbacks = () => {
+const UnifiedGaming = () => {
   return (
     <div>Unified Gaming</div>
   )
 }
 
-export default Feedbacks
+export default UnifiedGaming

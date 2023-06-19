@@ -38,6 +38,13 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <Link
+            to="https://kick.com/papanox"
+          >
+            <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex'>
+              Stream
+            </p>  
+          </Link>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
