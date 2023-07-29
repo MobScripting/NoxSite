@@ -5,7 +5,7 @@ import About from './About';
 import Specs from './Specs';
 import Experience from './Experience';
 import Works from './Works';
-import Feedbacks from './Feedbacks';
+import UnifiedGaming from './Feedbacks';
 import Contact from './Contact';
 
 export {
@@ -15,7 +15,7 @@ export {
   Specs,
   Experience,
   Works,
-  Feedbacks,
+  UnifiedGaming,
   Contact,
   EarthCanvas, 
   BallCanvas, 

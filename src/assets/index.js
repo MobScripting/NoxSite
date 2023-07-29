@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import unified from "./unified.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +30,15 @@ import teamgroup from "./hardware/teamgroup.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import link from "./link.png";
+import fenix from "./fenixlogo.png";
+import vicee from "./vicee.png";
+import nova from "./nova.png";
+import styleth from "./styleth.png";
+import britt from "./adventbrit.png";
+import palmer from "./palmer.png";
+import cookie from "./cookie.png";
+import beast from "./beast.png";
 
 export {
   NoxLogo,
@@ -37,6 +47,7 @@ export {
   mobile,
   web,
   github,
+  unified,
   menu,
   close,
   css,
@@ -59,4 +70,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  link,
+  fenix,
+  vicee,
+  nova,
+  styleth,
+  britt,
+  palmer,
+  cookie,
+  beast,
 };

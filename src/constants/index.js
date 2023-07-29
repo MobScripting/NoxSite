@@ -24,6 +24,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    link,
+    fenix,
+    vicee,
+    nova,
+    styleth,
+    britt,
+    palmer,
+    cookie,
+    beast
   } from "../assets";
   
   export const navLinks = [
@@ -31,13 +40,13 @@ import {
       id: "about",
       title: "About",
     },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
     {
-      id: "stream",
-      title: "Stream",
-    },
-    {
-      id: "contact",
-      title: "Contact",
+      id: "unifiedgaming",
+      title: "Unified Gaming",
     },
   ];
   
@@ -205,67 +214,146 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PapaNox",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "",
+  
       tags: [
         {
-          name: "react",
+          name: "President",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Founder",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Member",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: NoxLogo,
+      source_code_link: "https://kick.com/papanox",
     },
     {
-      name: "Job IT",
+      name: "FrigidFenix",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "",
       tags: [
         {
-          name: "react",
+          name: "Vice President",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Member",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: fenix,
+      source_code_link: "https://www.twitch.tv/FrigidFenix",
     },
     {
-      name: "Trip Guide",
+      name: "ViceeLives",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "",
       tags: [
         {
-          name: "nextjs",
+          name: "Social Media Director",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Member",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: vicee,
+      source_code_link: "https://www.twitch.tv/gridtv_esports",
+    },
+    {
+      name: "NovaStorm",
+      description:
+        "",
+      tags: [
+        {
+          name: "Community Manager",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nova,
+      source_code_link: "https://twitter.com/NovaStorrm",
+    },
+    {
+      name: "Styleth",
+      description:
+        "",
+      tags: [
+        {
+          name: "Lead Recruiter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: styleth,
+      source_code_link: "https://www.twitch.tv/Styleth",
+    },
+    {
+      name: "AdventuresOfBrittany",
+      description:
+        "",
+      tags: [
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: britt,
+      source_code_link: "https://www.twitch.tv/AdventuresOfBrittany",
+    },
+    {
+      name: "NLBPalmer24",
+      description:
+        "",
+      tags: [
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: palmer,
+      source_code_link: "https://www.twitch.tv/NLBPalmer24",
+    },
+    {
+      name: "Cookiesaurus",
+      description:
+        "",
+      tags: [
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cookie,
+      source_code_link: "https://www.twitch.tv/cookiesaurus",
+    },
+    {
+      name: "Xerobeast",
+      description:
+        "",
+      tags: [
+        {
+          name: "Member",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: beast,
+      source_code_link: "https://kick.com/xerobeast",
     },
   ];
   
