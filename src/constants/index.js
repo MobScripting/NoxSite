@@ -32,10 +32,10 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
     {
       id: "unifiedgaming",
       title: "Unified Gaming",
