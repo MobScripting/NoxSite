@@ -31,6 +31,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import link from "./link.png";
+import fenix from "./fenixlogo.png";
+import vicee from "./vicee.png";
+import nova from "./nova.png";
+import styleth from "./styleth.png";
+import britt from "./adventbrit.png";
+import palmer from "./palmer.png";
+import cookie from "./cookie.png";
+import beast from "./beast.png";
 
 export {
   NoxLogo,
@@ -63,4 +71,12 @@ export {
   jobit,
   tripguide,
   link,
+  fenix,
+  vicee,
+  nova,
+  styleth,
+  britt,
+  palmer,
+  cookie,
+  beast,
 };

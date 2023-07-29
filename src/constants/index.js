@@ -24,7 +24,15 @@ import {
     jobit,
     tripguide,
     threejs,
-    link
+    link,
+    fenix,
+    vicee,
+    nova,
+    styleth,
+    britt,
+    palmer,
+    cookie,
+    beast
   } from "../assets";
   
   export const navLinks = [
@@ -241,7 +249,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: fenix,
       source_code_link: "https://www.twitch.tv/FrigidFenix",
     },
     {
@@ -258,7 +266,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: vicee,
       source_code_link: "https://www.twitch.tv/gridtv_esports",
     },
     {
@@ -275,7 +283,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: nova,
       source_code_link: "https://twitter.com/NovaStorrm",
     },
     {
@@ -292,7 +300,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: styleth,
       source_code_link: "https://www.twitch.tv/Styleth",
     },
     {
@@ -305,7 +313,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: britt,
       source_code_link: "https://www.twitch.tv/AdventuresOfBrittany",
     },
     {
@@ -318,7 +326,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: palmer,
       source_code_link: "https://www.twitch.tv/NLBPalmer24",
     },
     {
@@ -331,8 +339,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "",
+      image: cookie,
+      source_code_link: "https://www.twitch.tv/cookiesaurus",
     },
     {
       name: "Xerobeast",
@@ -344,7 +352,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: beast,
       source_code_link: "https://kick.com/xerobeast",
     },
   ];
