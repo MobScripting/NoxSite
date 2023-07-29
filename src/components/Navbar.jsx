@@ -40,6 +40,7 @@ const Navbar = () => {
           ))}
           <Link
             to="https://kick.com/papanox"
+            target='_blank'
           >
             <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex'>
               Stream
