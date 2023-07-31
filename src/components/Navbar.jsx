@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
-import { navLinks } from '../constants'
+import { navLinks, externalNav } from '../constants'
 import { NoxLogo, menu, close } from '../assets'
 
 
@@ -38,14 +38,24 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-          <Link
-            to="https://kick.com/papanox"
-            target='_blank'
-          >
-            <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex'>
-              Stream
-            </p>  
-          </Link>
+          {externalNav.map((link) => (
+            <li
+              key={link.id}
+              className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
+            >
+              <Link
+                to={link.url}
+                target='_blank'
+                >
+                <img 
+                  src={link.icon}
+                  alt={link.title}
+                  className="w-[28px] h-[28px] object-contain"
+                />
+              </Link>
+            </li>
+          ))}
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -69,6 +79,20 @@ const Navbar = () => {
                     <a href={`#${link.id}`}>{link.title}</a>
                   </li>
                 ))}
+                {externalNav.map((link) => (
+                  <li
+                    key={link.id}
+                    className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+                    onClick={() => setActive(link.title)}
+                  >
+                    <Link
+                      to={link.url}
+                      target='_blank'
+                      >
+                      {link.title}
+                    </Link>
+                  </li>
+                ))}
             </ul>
             </div>
         </div>
@@ -76,5 +100,6 @@ const Navbar = () => {
     </nav>
   )
 }
+
 
 export default Navbar

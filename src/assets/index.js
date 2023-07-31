@@ -39,8 +39,16 @@ import britt from "./adventbrit.png";
 import palmer from "./palmer.png";
 import cookie from "./cookie.png";
 import beast from "./beast.png";
+import youtube from "./youtube.png";
+import tiktok from "./tiktok.png";
+import discord from "./discord.png";
+import kick from "./kick.png"
 
 export {
+  tiktok,
+  discord,
+  youtube,
+  kick,
   NoxLogo,
   backend,
   creator,

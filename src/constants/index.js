@@ -32,7 +32,11 @@ import {
     britt,
     palmer,
     cookie,
-    beast
+    beast,
+    youtube,
+    tiktok,
+    discord,
+    kick
   } from "../assets";
   
   export const navLinks = [
@@ -47,6 +51,29 @@ import {
     {
       id: "unifiedgaming",
       title: "Unified Gaming",
+    },
+  ];
+
+  export const externalNav = [
+    {
+      url: "https://www.youtube.com/@ThePapaNox",
+      title: "Youtube",
+      icon: youtube
+    },
+    {
+      url: "https://www.tiktok.com/@thepapanox",
+      title: "TikTok",
+      icon: tiktok
+    },
+    {
+      url: "https://www.discord.gg/NoxNation",
+      title:"Discord",
+      icon: discord
+    },
+    {
+      url: "https://kick.com/papanox",
+      title: "Kick",
+      icon: kick
     },
   ];
   
