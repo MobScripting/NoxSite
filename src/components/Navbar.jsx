@@ -40,7 +40,7 @@ const Navbar = () => {
           ))}
           {externalNav.map((link) => (
             <li
-              key={link.id}
+              key={link.url}
               className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
@@ -81,7 +81,7 @@ const Navbar = () => {
                 ))}
                 {externalNav.map((link) => (
                   <li
-                    key={link.id}
+                    key={link.url}
                     className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
                     onClick={() => setActive(link.title)}
                   >
