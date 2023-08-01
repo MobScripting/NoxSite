@@ -43,9 +43,13 @@ import youtube from "./youtube.png";
 import tiktok from "./tiktok.png";
 import discord from "./discord.png";
 import kick from "./kick.png";
-import twitter from "./twitter.png"
+import twitter from "./twitter.png";
+import donate from "./donate.png";
+import merch from "./merch.png"
 
 export {
+  merch,
+  donate,
   twitter,
   tiktok,
   discord,
