@@ -36,7 +36,8 @@ import {
     youtube,
     tiktok,
     discord,
-    kick
+    kick,
+    twitter
   } from "../assets";
   
   export const navLinks = [
@@ -56,6 +57,16 @@ import {
 
   export const externalNav = [
     {
+      url: "https://streamlabs.com/papanox/tip",
+      title: "Donate",
+      icon: ""
+    },
+    {
+      url: "https://streamlabs.com/papanox/merch",
+      title: "Merch",
+      icon: ""
+    },
+    {
       url: "https://www.youtube.com/@ThePapaNox",
       title: "Youtube",
       icon: youtube
@@ -74,6 +85,11 @@ import {
       url: "https://kick.com/papanox",
       title: "Kick",
       icon: kick
+    },
+    {
+      url: "https://www.twitter.com/ThePapaNox",
+      title: "Twitter",
+      icon: twitter
     },
   ];
   
@@ -277,7 +293,7 @@ import {
         },
       ],
       image: fenix,
-      source_code_link: "https://www.twitch.tv/FrigidFenix",
+      source_code_link: "https://kick.com/frigidfenix",
     },
     {
       name: "ViceeLives",

@@ -42,9 +42,11 @@ import beast from "./beast.png";
 import youtube from "./youtube.png";
 import tiktok from "./tiktok.png";
 import discord from "./discord.png";
-import kick from "./kick.png"
+import kick from "./kick.png";
+import twitter from "./twitter.png"
 
 export {
+  twitter,
   tiktok,
   discord,
   youtube,
