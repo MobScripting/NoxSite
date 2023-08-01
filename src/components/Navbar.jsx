@@ -51,7 +51,7 @@ const Navbar = () => {
                 <img 
                   src={link.icon}
                   alt={link.title}
-                  className="w-[28px] h-[28px] object-contain"
+                  className="w-[30px] h-[30px] object-contain"
                 />
               </Link>
             </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
                       to={link.url}
                       target='_blank'
                       >
-                      {link.title}
+                        {link.title}
                     </Link>
                   </li>
                 ))}
