@@ -203,7 +203,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Module Type: DDR5 288 Pin Non-ECC Unburffered DIMM",
+      "Module Type: DDR5 288 Pin Non-ECC Unbuffered DIMM",
       "Frequency: 6000 MHZ",
       "Latency: CL30-36-36-76",
       "Capacity: 16Gbx2",
@@ -224,7 +224,7 @@ const experiences = [
       "Memory Speed (Gbps): 21",
       "Memory Size: 24GB GDDR6X",
       "Memory Interface: 384-bit",
-      "Memory Bandwitdh (GB/sec): 1008",
+      "Memory Bandwidth (GB/sec): 1008",
       "TDP: 450 W",
     ],
   },
